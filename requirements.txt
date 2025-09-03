@@ -2,3 +2,4 @@ piper-tts
 onnxruntime          # или onnxruntime-gpu
 numpy
 wave
+

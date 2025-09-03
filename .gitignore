@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.wav
+
+# Папки с моделями и аудио
+/voices
+/output
+
+venv/
+env/
+output/
+.DS_Store
+Thumbs.db

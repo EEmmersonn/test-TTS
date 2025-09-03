@@ -5,7 +5,7 @@ from piper import PiperVoice, SynthesisConfig
 
 # === 1. Загрузка голоса ===
 # Укажи точное имя модели (должно совпадать с именем после download_voices)
-model_name = "en_US-lessac-medium"  # или путь к .onnx файлу: "voices/en_US-lessac-medium.onnx"
+model_name = "voices/en_US-lessac-medium"  # или путь к .onnx файлу: "voices/en_US-lessac-medium.onnx"
 
 # 🔥 Раскомментируй, если хочешь использовать GPU
 # voice = PiperVoice.load(f"{model_name}.onnx", use_cuda=True)
@@ -25,7 +25,7 @@ syn_config = SynthesisConfig(
 )
 
 # === 3. Текст для озвучки ===
-text = "Welcome to the world of speech synthesis with Piper!"
+text = "Welcome to the world of speech synthesis with Piper bazinga pupapa!"
 
 # === 4. Синтез в .wav файл ===
 output_path = "output/test.wav"
